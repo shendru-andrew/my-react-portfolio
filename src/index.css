@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FBFCFA;
+}
+
+h1, ul{
+    margin: 0;
+}
+
+.powder{
+    background-color: #FBFCFA;
+}
+.text_powder{
+    color: #FBFCFA;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.raleway{
+    font-family: 'Raleway', sans-serif;
+}

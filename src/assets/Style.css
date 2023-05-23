@@ -1,0 +1,40 @@
+.resume_btn{
+    padding: .8rem 2rem;
+    
+    background-color: black;
+
+    font-weight: bolder;
+    border: none;
+
+    transition: .16s;
+}
+
+.resume_btn:hover {
+    border-radius: 1.5rem;
+}
+
+.hero_text_spacing{
+    letter-spacing: 2px;
+}
+
+.hero_section{
+    height: calc(100vh - 64px);
+}
+
+.heading_large{
+    font-size: 7rem;
+}
+
+.logo{
+    mix-blend-mode: difference;
+}
+
+.header_scroll{
+    background-color: black;
+    transition: .2s ease-in;
+}
+
+.header_scroll_text{
+    color: #FBFCFA;
+    transition: .2s ease-in;
+}

@@ -14,7 +14,7 @@ export default function NavBar() {
     window.addEventListener('scroll', scrolling)
 
   return (
-    <header className={!onScroll ? 'sticky-top d-flex justify-content-between py-2' : 'sticky-top d-flex justify-content-between py-2 header_scroll'}>
+    <header id='Navbar' className={!onScroll ? 'sticky-top d-flex justify-content-between py-2' : 'sticky-top d-flex justify-content-between py-2 header_scroll'}>
         <a href='' className={!onScroll ? 'text-black text-decoration-none ms-5' : 'text-decoration-none ms-5 header_scroll_text'}><h1 className='raleway fw-bolder logo'><span className='fst-italic'>A</span>E</h1></a>
         <ul className='d-flex align-items-center list-unstyled gap-5 me-5 fs-5 fw-bold'>
             <li><a href='' className={!onScroll ? 'text-decoration-none text-black raleway' : 'text-decoration-none header_scroll_text raleway'}>{'<About/>'}</a></li>

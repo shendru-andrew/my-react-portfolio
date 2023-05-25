@@ -3,7 +3,7 @@ import React from 'react'
 export default function HeroSection() {
   return (
     <section className='powder hero_section d-flex justify-content-center align-items-center'>
-        <article className='text-start w-75'>
+        <article className='text-start w-75 mb-5'>
             <h1 className='roboto heading_large text-black'><span className='fst-italic'>A</span>NDREW <span className='fst-italic'>E</span>ARL</h1>
             <h2 className='raleway text-black'><span className='fst-italic'>f</span>ull stack web developer</h2>
             <div className='d-flex align-items-center gap-4 mt-5 raleway'>

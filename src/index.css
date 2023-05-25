@@ -22,3 +22,7 @@ h1, ul{
 .raleway{
     font-family: 'Raleway', sans-serif;
 }
+
+.pointer{
+    cursor: pointer;
+}

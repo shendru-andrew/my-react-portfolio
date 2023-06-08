@@ -10,7 +10,9 @@ export default function Projects() {
                         asdsadsa
                     </div>
                 </div>
-                <div className="col">GASGASGSAGSAGSAGSAGSGS</div>
+                <div className="col">GASGASGSAGSAGSAGSAGSGS
+                    
+                </div>
             </div>
         </div>
     </section>

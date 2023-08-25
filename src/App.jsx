@@ -1,14 +1,24 @@
 import { useState } from 'react'
-// import './App.css'
-import HeroSection from './sections/HeroSection'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.css'
+import Navbar from './components/navbar/Navbar'
+import Hero from './pages/hero/Hero'
+import About from './pages/about/About'
+import Projects from './pages/projects/Projects'
+import Contact from './pages/contact/Contact'
+import MockPage from './pages/hero/MockPage'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <HeroSection/>
+      <Navbar />
+      <Hero />
+      <main className='relative'>
+        <MockPage />
+        <About />
+        <Projects />
+        <Contact />
+      </main>
     </>
   )
 }

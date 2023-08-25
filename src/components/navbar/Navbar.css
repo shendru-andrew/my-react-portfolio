@@ -1,0 +1,23 @@
+/* ._navtrue, ._navfalse, ._navBorder1true, ._navBorder2true {
+    transition: .2s;
+} */
+
+._navtrue{
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.473); */
+    backdrop-filter: blur(10px);
+}
+.navText_page2, .navText_page3{
+    color: #fff;
+}
+
+.navBtn_page3{
+    border-color: #fff!important;
+    color: #fff!important;
+}
+
+.navBorder1_page2, .navBorder1_page3, .navBorder2_page3{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.473);
+}
+.navBorder2_page2{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.473)!important;
+}
